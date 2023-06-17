@@ -28,7 +28,7 @@ The solution consists of three projects:
    to create or delete products. (NOTE: THIS COMMENTED BECAUSE AUTHENTICATION IS NOT COMPLETE FROM FE YET)
 
 ## To run the project
-1. clone the repo.
+1. Clone the repo.
 2. Navigate to folder "OnlineSystem.Api".
 3. Run "dotnet ef database update --project ..\OnlineSystem.Data\" to create the database with the tables
 4. Run the API project.
