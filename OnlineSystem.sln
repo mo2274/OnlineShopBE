@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSystem.Api", "OnlineSystem.Api\OnlineSystem.Api.csproj", "{250E5A1F-5E49-48CC-95D1-33BA0315F6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSystem.Core", "OnlineSystem.Core\OnlineSystem.Core.csproj", "{0B9CC67C-BD8E-44D9-B678-FD384ED05F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSystem.Data", "OnlineSystem.Data\OnlineSystem.Data.csproj", "{62584065-DA16-429D-BE61-2B6A5F841161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250E5A1F-5E49-48CC-95D1-33BA0315F6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250E5A1F-5E49-48CC-95D1-33BA0315F6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250E5A1F-5E49-48CC-95D1-33BA0315F6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250E5A1F-5E49-48CC-95D1-33BA0315F6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9CC67C-BD8E-44D9-B678-FD384ED05F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9CC67C-BD8E-44D9-B678-FD384ED05F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9CC67C-BD8E-44D9-B678-FD384ED05F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9CC67C-BD8E-44D9-B678-FD384ED05F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62584065-DA16-429D-BE61-2B6A5F841161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62584065-DA16-429D-BE61-2B6A5F841161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62584065-DA16-429D-BE61-2B6A5F841161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62584065-DA16-429D-BE61-2B6A5F841161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
