@@ -42,7 +42,8 @@ public class ProductRepository : Repository<Product> , IProductRepository
                         Name = c.Name,
                         ParentCategoryName = c.ParentCategory.Name
                     }).ToList()
-            });
+            })
+            .OrderBy(p => p.Name);
         
         var result = await queryable.Skip((paginationFilter.PageNumber - 1) * paginationFilter.PageSize)
             .Take(paginationFilter.PageSize)

@@ -41,16 +41,4 @@ public class IdentityController : ControllerBase
             token = jwt
         });
     }
-    
-    [HttpPost("signup")]
-    public async Task<IActionResult> SingUp(LoginPayload loginPayload)
-    {
-        return Ok();
-    }
-    
-    [HttpPost("signout")]
-    public async Task<IActionResult> SingOut(string userName, string Password)
-    {
-        return Ok();
-    }
 }

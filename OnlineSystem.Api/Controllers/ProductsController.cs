@@ -11,7 +11,7 @@ namespace OnlineSystem.Api.Controllers;
 
 [Route("api/[Controller]")]
 [ApiController]
-[Authorize(Roles = "adm6in")]
+//[Authorize(Roles = "adm6in")]
 public class ProductsController : ControllerBase
 {
     private readonly IProductService _productService;
